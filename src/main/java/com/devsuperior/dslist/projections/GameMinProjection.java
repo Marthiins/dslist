@@ -4,7 +4,7 @@ public interface GameMinProjection { // colocar os metodos get correspondente a 
 	
 	Long getId();
 	String getTitle();
-	Integer getYear();
+	Integer getGameYear();
 	String getImgUrl();
 	String getShortDescription();
 	Integer getPosition();

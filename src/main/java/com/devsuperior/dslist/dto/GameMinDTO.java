@@ -29,7 +29,7 @@ public class GameMinDTO implements Serializable{ //DTO é uma classe independent
 	public GameMinDTO(GameMinProjection projection) {//Construtor gereando os dados da entidade
 		id = projection.getId();
 		title = projection.getTitle();
-		year = projection.getYear();
+		year = projection.getGameYear();
 		imgUrl = projection.getImgUrl();
 		shortDescription = projection.getShortDescription();
 	}
